@@ -6,7 +6,7 @@
  ******************************************************************************************* */
 
 
-/**(1)
+/**
  * Returns the result of concatenation of two strings.
  *
  * @param {string} value1
@@ -22,7 +22,7 @@ function concatenateStrings(value1, value2) {
   return value1 + value2;
 }
 
-/**(2)
+/**
  * Returns the length of given string.
  *
  * @param {string} value
@@ -37,7 +37,7 @@ function getStringLength(value) {
   return value.length;
 }
 
-/**(3)
+/**
  * Returns the result of string template and given parameters firstName and lastName.
  * Please do not use concatenation, use template string :
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings
@@ -54,7 +54,7 @@ function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
 }
 
-/**(4)
+/**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
  *
  * @param {string} value
@@ -69,7 +69,7 @@ function extractNameFromTemplate(value) {
 }
 
 
-/**(5)
+/**
  * Returns a first char of the given string.
  *
  * @param {string} value
@@ -83,7 +83,7 @@ function getFirstChar(value) {
   return value.slice(0, 1);
 }
 
-/**(6)
+/**
  * Removes a leading and trailing whitespace characters from string.
  *
  * @param {string} value
